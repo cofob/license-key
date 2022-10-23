@@ -12,6 +12,12 @@ pip install licensekey2
 
 Keys is generated and verifyed on the server.
 
+Install:
+
+```bash
+pip install licensekey2[requests]
+```
+
 ```python
 from licensekey2 import RemoteLicense
 
@@ -22,6 +28,14 @@ license.validate("1234-5678-9012-3456")
 ```
 
 ### Crypto license keys
+
+Keys is verifyed on the client.
+
+Install:
+
+```bash
+pip install licensekey2[crypto]
+```
 
 ```python
 from datetime import datetime
