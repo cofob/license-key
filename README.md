@@ -1,5 +1,7 @@
 # licensekey2
 
+LicenseKey2 is a library for generating and validating license keys.
+
 ## Installation
 
 ```bash
