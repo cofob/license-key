@@ -1,0 +1,7 @@
+pipeline:
+  check:
+    image: python
+    commands:
+      - curl -sSL https://install.python-poetry.org | python3 -
+      - /root/.local/bin/poetry install
+      - /root/.local/bin/poetry run make test
