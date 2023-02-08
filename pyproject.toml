@@ -10,7 +10,7 @@ keywords = ["license", "licensing"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-cryptography = {version = "^38", optional = true }
+cryptography = {version = ">=38,<40", optional = true }
 requests = {version =  "^2.28", optional = true }
 
 [tool.poetry.extras]
