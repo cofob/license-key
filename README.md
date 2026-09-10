@@ -1,3 +1,5 @@
+> **Archival notice:** This repository is archived and no longer maintained.
+
 # licensekey2
 
 LicenseKey2 is a library for generating and validating license keys.
